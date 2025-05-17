@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personalized Study Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Daily Planner</h1>
+  </header>
+
+  <section id="calendar-section">
+    <h2>Weekly Study Calendar</h2>
+    <div id="calendar"></div>
+  </section>
+
+  <section id="timer-section">
+    <h2>Study Timer</h2>
+    <div id="timer-display">00:00:00</div>
+    <div id="pomodoro-status">Status: Idle</div>
+    <button id="start-timer">Start</button>
+    <button id="stop-timer" disabled>Stop</button>
+    <button id="reset-timer" disabled>Reset</button>
+  </section>
+
+  <section id="schedule-section">
+    <h2>AI Generated Study Schedule</h2>
+    <div id="study-schedule"></div>
+    <div id="daily-routine-suggestion"></div>
+  </section>
+
+  <section id="quote-section">
+    <h2>Motivational Quote</h2>
+    <blockquote id="motivational-quote"></blockquote>
+    <button id="new-quote">New Quote</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calendar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  flex: 1;
+  margin: 0 5px;
+  background: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#timer-display {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#pomodoro-status {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#start-timer {
+  background-color: #28a745;
+  color: white;
+}
+
+#stop-timer {
+  background-color: #dc3545;
+  color: white;
+}
+
+#reset-timer {
+  background-color: #ffc107;
+  color: black;
+}
+
+#daily-routine-suggestion {
+  margin-top: 15px;
+  background-color: #d1ecf1;
+  padding: 10px;
+  border-radius: 5px;
+  color: #0c5460;
+}
+
+#daily-routine-suggestion h3 {
+  margin-top: 0;
+}
+
+#daily-routine-suggestion ul {
+  padding-left: 20px;
+}
+
+#daily-routine-suggestion p {
+  font-style: italic;
+  margin-top: 10px;
+}
